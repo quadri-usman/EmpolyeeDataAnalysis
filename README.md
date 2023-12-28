@@ -1,16 +1,16 @@
-Employee Data: Performance of Employee
-Introduction
+# Employee Data: Performance of Employee
+## Introduction
 In this period, employees are employed after rigorous tests, interviews and trainings. After being employed, it is recommended to engage the employees on continuous trainings (like workshops) for personal development to improve their productivity. Performance of an employee can be measured using the parameters like engagement score, performance score, satisfaction score, work-life balance score and current employee rating. The objectives of this analysis are to track employee metrics such as employee turnover, training, and performance.
-The Data
+## The Data
 The data contains different tables including engagement-survey data, recruitment data, training and development data. The data contains exactly 3,000 sampled employee with unique ID numbers.
-Rating System for Satisfaction Score, Work-Life Balance and Current Employee Rating:
+## Rating System for Satisfaction Score, Work-Life Balance and Current Employee Rating:
 5= Excellent performance
 4= Very good performance
 3= Good performance
 2= Poor performance
 1= Very poor performance 	
-Project Tool Used: Excel
-Analysis Questions 
+## Project Tool Used: Excel
+## Analysis Questions 
 The business questions to look into in this project are the following:
 1. Can you create a pivot table to summarize the total number of employees in each department?
 2. Apply conditional formatting to highlight employees with a "Performance Score" below 3 in red.
@@ -33,12 +33,12 @@ The business questions to look into in this project are the following:
 19. Utilize the SUMPRODUCT function to calculate the total training cost for employees in a
 specific location.
 20. Develop a dashboard that provides an overview of key HR metrics, including headcount, performance, and training costs, using charts and pivot tables.
-Availability of Data
+## Availability of Data
 - The provided data would be good enough for the analysis to answer the business questions asked.
-Data Cleaning Process
+## Data Cleaning Process
 The missing values in the ExitDate column were replaced with “Nill” while the rows with “Unk” values in the Termination Type column were replaced with “Unknown”. The data in the Survey column were formatted to have uniform data type. There were no duplicate in the dataset.
 Unnecessary columns like Payzone, Termination Description, State, Termination Description and Location Code were removed due to their irrelevances to the business questions. 
-Analysis and Insights
+## Analysis and Insights
 Using pivot tables and plotting different graphs, the following insights could be deduced from the analysis:  
 1. The production department greatly leads other departments having the highest number of employees (2020) followed by IT/IS (430) while Executive Office has the least number of only 24 employees.
  
@@ -74,7 +74,7 @@ Using pivot tables and plotting different graphs, the following insights could b
 18. The distribution of "ExitDate" for terminated employees is shown below.
  
 19. The total training cost for employees in a specific location can be calculated using =SUMPRODUCT(--(F2:F3001=J4),I2:I3001) in the Training and Development Dataset.
-Conclusion
+## Conclusion
 The Executive Office department with the least number of employees has the highest average engagement score of 3.375 whereas the Production department with the majority of employees has the least average engagement score of 2.906. Therefore, the organization could be advised to check the number of workers in the production department for better engagement score.
-Dashboard
+## Dashboard
  ![Screenshot (244)](https://github.com/quadri-usman/EmpolyeeDataAnalysis/assets/105228467/173465f7-4484-4210-b50b-d793f464592d)
