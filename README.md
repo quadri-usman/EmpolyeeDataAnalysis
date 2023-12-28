@@ -77,4 +77,4 @@ Using pivot tables and plotting different graphs, the following insights could b
 Conclusion
 The Executive Office department with the least number of employees has the highest average engagement score of 3.375 whereas the Production department with the majority of employees has the least average engagement score of 2.906. Therefore, the organization could be advised to check the number of workers in the production department for better engagement score.
 Dashboard
- 
+ ![Screenshot (244)](https://github.com/quadri-usman/EmpolyeeDataAnalysis/assets/105228467/173465f7-4484-4210-b50b-d793f464592d)
